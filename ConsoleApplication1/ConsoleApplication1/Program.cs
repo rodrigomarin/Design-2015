@@ -1,19 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Tarea
 {
-    class Program
+    public class fibonacci
     {
-        static void Main(string[] args)
+        static int proceso (int f)
         {
-            System.Console.WriteLine("Hola mundo");
-             System.Console.WriteLine("V2");
-             System.Console.WriteLine("acachete, acachete, acachete");
-            System.Console.ReadKey();
-                   }
+            if ((f==2)) || ((x==1)){
+                return (1);
+            }else{
+                return (proceso(x - 1)+proceso(x-2));
+            }
+                   
     }
 }
